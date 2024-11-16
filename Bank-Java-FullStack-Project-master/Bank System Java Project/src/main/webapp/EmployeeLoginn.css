@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "poppins",sans-serif;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+img{
+  object-fit: cover;
+}
+form{
+  background: rgba(255,255,255,0.7);
+  width: 400px;
+  margin-left: -55px;
+  padding: 40px;
+  max-height: 1000px;
+  border-radius: 10px;
+  align-content: center;
+  margin-top: 160px;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: blue;
+}
+.form-floating{
+  margin-bottom: 15px;
+}
+.bodyTag{
+  background-size:cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/EmployeeBack.jpg);
+  backdrop-filter: blur(5px);
+}
+.Login{
+  margin-top: 10px;
+  width: 100px;
+}
+.forgot{
+  margin-top: 17px;
+  float: right;
+  font-size: 18px;
+}
+label{
+  color: rgba(0,0,0,0.5);
+}
+.A{
+  color: purple;
+  font-family: cursive;
+  transform: rotate(-12deg);
+  font-size: 70px;
+}
+.S{
+  color: rgb(216, 84, 84);
+  font-family: cursive;
+  font-size: 60px;
+  margin-left: -25px;
+  margin-top: 25px;
+  transform: rotate(-10deg);
+}
+.sub{
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 25px;
+  color: blueviolet;
+  font-weight: 700;
+}
+.BankName{
+  display: flex;
+}
+.AH{
+  color: purple;
+  font-family: cursive;
+  transform: rotate(-12deg);
+  font-size: 40px;
+}
+.SH{
+  color: rgb(216, 84, 84);
+  font-family: cursive;
+  font-size: 40px;
+  margin-left: -15px;
+  transform: rotate(-10deg);
+}
+.BankNameH{
+  display: flex;
+  margin-left: 30px;
+}
+.subH{
+  margin-left: 20px;
+  margin-top: 6px;
+  font-size: 15px;
+  color: blueviolet;
+  font-weight: 700;
+}
+.headerTag{
+  background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7));
+  height: 70px;
+  position: fixed;
+  width: 100%;
+}
+.navlinks{
+  color: black;
+  padding: 10px;
+  font-weight: 500;
+  font-family: "poppins",sans-serif;
+}
+.navButtons{
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.emp{
+  margin-right: 10px;
+}
+.navMain{
+  display: flex;
+  margin-right: 40px;
+}
+.navMain li{
+  list-style: none;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.navMain li a{
+  text-decoration: none;
+}
+.navMain li a:focus{
+  color: green;
+  transition: all 0.4s ease;
+}

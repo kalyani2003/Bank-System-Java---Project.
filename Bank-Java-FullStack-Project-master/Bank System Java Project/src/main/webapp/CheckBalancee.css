@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "poppins",sans-serif;
+}
+.Welcome{
+  font-size: 30px;
+  margin-left: -75px;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+img{
+  object-fit: cover;
+}
+form{
+  background: rgba(255,255,255,0.7);
+  width: 400px;
+  margin-left: -55px;
+  padding: 40px;
+  max-height: 1000px;
+  border-radius: 10px;
+  align-content: center;
+  margin-top: 50px;
+}
+.form-floating{
+  margin-bottom: 15px;
+}
+.bodyTag {
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/HomeBack.jpg);
+  backdrop-filter: blur(3px);
+}
+
+label{
+  color: rgba(0,0,0,0.5);
+}
+.A{
+  color: purple;
+  font-family: cursive;
+  transform: rotate(-12deg);
+  font-size: 70px;
+}
+.S{
+  color: rgb(216, 84, 84);
+  font-family: cursive;
+  font-size: 60px;
+  margin-left: -25px;
+  margin-top: 25px;
+  transform: rotate(-10deg);
+}
+.sub{
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 25px;
+  color: blueviolet;
+  font-weight: 700;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+img{
+  object-fit: cover;
+}
+.form-floating{
+  margin-bottom: 15px;
+}
+.bodyTag {
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/HomeBack.jpg);
+  backdrop-filter: blur(3px);
+}
+label{
+  color: rgba(0,0,0,0.5);
+}
+.BankName{
+  display: flex;
+}
+.name{
+font-family: "poppins";
+font-size: 35px;
+}
+.Login{
+  margin-top: 15px;
+  margin-left: 29%;
+}
+.psucc{
+color:green;
+}
